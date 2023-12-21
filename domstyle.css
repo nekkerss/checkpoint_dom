@@ -1,0 +1,47 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(51, 49, 49, 0.158);
+}
+.headd{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+main {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 2rem;
+}
+.servies{
+    border: groove  #a192c2;
+    border-radius: 3%;
+    width: 200px;
+    height: 395px;
+    overflow: hidden;
+}
+.servies img{
+    position: relative;
+    top: 3;  
+}
+.icons{
+    display: flex;
+    border-top: 1px solid #a192c2;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 5px;
+    background-color: #a192c2;
+}
+.hhh{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.red{
+    color: red;
+}
